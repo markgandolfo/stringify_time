@@ -2,6 +2,8 @@ StringifyTime
 =============
 
 Simply converts strings into minutes and minutes into humanized time. 
+I've pulled this out of scrumandcola.com, which is an agile (scrum) project management tool
+as such, a day is 6 hours. This can be changed via a class variable in the script
 
 Accepts days months and minutes in this format
 "1d 2h 30m"
