@@ -5,6 +5,9 @@ Simply converts strings into minutes and minutes into humanized time.
 I've pulled this out of scrumandcola.com, which is an agile (scrum) project management tool
 as such, a day is 6 hours. This can be changed via a class variable in the script
 
+Or you can create an initializer (e.g. stringify_time.rb)
+and in that, add `StringifyTime.hours_per_day = 5`
+
 Accepts days months and minutes in this format
 "1d 2h 30m"
 "1d 30m"

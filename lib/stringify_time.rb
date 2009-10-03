@@ -1,7 +1,9 @@
 module StringifyTime
 
-  @@hours_per_day = 6
-  
+  DEFAULT_HOURS_PER_DAY = 6
+  mattr_accessor :hours_per_day
+  @@hours_per_day = DEFAULT_HOURS_PER_DAY
+    
   String.class_eval do
     def minutes
       Integer mins = 0
