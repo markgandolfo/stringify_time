@@ -11,8 +11,7 @@ Accepts days months and minutes in this format
 
 etc. 
 
-
-No tests yet.. they're coming
+Updated with specs
 
 Example
 =======

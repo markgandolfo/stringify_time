@@ -1,1 +1,1 @@
-require 'core_ext'
+require 'stringify_time'
